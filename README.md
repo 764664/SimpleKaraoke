@@ -1,6 +1,9 @@
-SimpleKaraoke
-=============
-���׿���OK����
-1)	��Ҫ.NET Framework 3.5(Win7�����Դ�)����ҪDirectX Runtime Jun 2010
-2)	���ܣ�����wav�ļ�(֧���Ϸ�)��ѡ����һ���Start�󣬵����ڶ����棬���Run��ʼ���š���ʾ��ʣ�������ͬ��lrc�ļ�����¼�������Close����ʾѡ��Ŀ���ļ����ϳ�ԭwav��¼������Ϊ�ϳɵ��ٶȽ����������ȴ�������ֱ���ϳ���ϡ��������û�����ֱ�Ӻϳɣ����ǻ��ܵ����������ƾ�û��ʹ�á�
+SimpleKaraoke
+=============
+##简易卡拉OK工具
+需要.NET Framework 3.5(Win7以上自带)，需要DirectX Runtime Jun 2010
+##功能
+添加wav文件(支持拖放)，选择其一点击Start后，弹出第二界面，点击Run后开始播放、显示歌词（若存在同名lrc文件）并录音，点击Close后，提示选择目标文件，合成原wav和录音，因为合成的速度较慢，程序会等待数分钟直至合成完毕。
 
+本来想用混音器直接合成，但是会受到声卡的限制就没有使用。
+
